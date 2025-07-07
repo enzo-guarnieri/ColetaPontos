@@ -35,7 +35,7 @@ const circleIcon = (color: string) =>
   });
 
 export default function MapView({ points }: MapProps) {
-  const center =
+  const center: [number, number] =
     points.length > 0
       ? [points[0].lat, points[0].lng]
       : [-23.547271, -46.651813];
