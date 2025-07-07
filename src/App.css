@@ -1,0 +1,14 @@
+/* app.css (ou index.css) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🔻 comente ou remova as regras abaixo se não precisar mais */
+#root {
+  /* max-width: 1280px; */
+  margin: 0;          /* tira o auto‑center que não precisamos */
+  padding: 0;         /* remove padding que desloca o bloco */
+  text-align: initial;/* deixa inputs alinhados à esquerda */
+}
+
+/* remova também .logo e animações se não usa mais */
